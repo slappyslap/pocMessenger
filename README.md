@@ -1,8 +1,10 @@
-#POC Symfony messenger
-#prerequisites
+# POC Symfony messenger
+
+# Prerequisites
 - Symfony 5.*
 - RabbitMQ or another messenger
-##Step to run
+
+## Step to run
 - git clone https://github.com/slappyslap/pocMessenger
 - composer install
 - Set env variables
