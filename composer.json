@@ -1,6 +1,13 @@
 {
     "type": "project",
-    "license": "proprietary",
+    "description": "POC project for symfony messenger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxime Badin",
+            "email": "maxbadin11@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
