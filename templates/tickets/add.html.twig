@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Add - Tickets{% endblock %}
+
+{% block body %}
+    <h1 class="text-center">Add - Tickets</h1>
+
+    <div class="main mt-4">
+        {{ form_start(form) }}
+            {{ form_row(form.title) }}
+            {{ form_row(form.description) }}
+            <button type="submit" class="btn btn-primary w-100">{{ btnName }}</button>
+        {{ form_end(form) }}
+    </div>
+
+
+{% endblock %}
+
+
+

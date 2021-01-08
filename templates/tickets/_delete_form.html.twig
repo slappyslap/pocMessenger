@@ -1,0 +1,5 @@
+<form class="btn-group btn-group-sm" method="post" action="{{ path('app_tickets_delete', {'id': ticket.id}) }}" onsubmit="return confirm('Are you sure you want to delete this item?');">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ ticket.id) }}">
+    <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+</form>
